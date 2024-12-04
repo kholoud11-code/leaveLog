@@ -1,0 +1,55 @@
+.body {
+  /*background-image: url("nttdata3.png");*/
+  /*background-image: url("../assets/img/bg/bg.jpeg");*/
+  background-image: url("../assets/img/bg/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.propre-container {
+  position: relative;
+  padding-top: 21%;
+
+  transform: perspective(5px) translateY(-20%);
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+}
+.element-margin {
+  padding-top: 20px;
+}
+.app-name {
+  color: #6785c1;
+}
+#everholiday {
+  font-size: 25px;
+}
+#ntt {
+  width: max-content;
+  height: 100px;
+}
+.forget_password {
+  color: red;
+  font-size: 15px;
+}
+.forget_password:hover {
+  color: #87cb16;
+  font-size: 15px;
+}
+.SignIn-Btn {
+  color: #32cd32;
+}
+.SignIn-Btn:hover {
+  color: #32cd32;
+  font-weight: bold;
+}

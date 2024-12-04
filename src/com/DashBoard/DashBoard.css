@@ -1,0 +1,178 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  /*background-color: white;*/
+  /*background-color: #ddd;*/
+}
+
+.StatisCard {
+  width: 40%;
+  height: 30%;
+  margin-top: 2%;
+}
+
+.totalBalanceByProjectCard {
+  width: 40%;
+  height: 50%;
+}
+
+.IndicatorsByProjectCard {
+  width: 40%;
+  height: 50%;
+}
+
+.userBalanceDetailsCard {
+  width: 55%;
+  height: 50%;
+}
+
+.userIndicatorsDetailsCard {
+  width: 55%;
+  height: 50%;
+}
+
+.revenueCard {
+  width: 55%;
+  height: 50%;
+}
+
+/* Adjustments for smaller screen sizes */
+@media (max-width: 1200px) {
+  .App {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .StatisCard,
+  .totalBalanceByProjectCard,
+  .userBalanceDetailsCard,
+  .revenueCard {
+    width: 100%; /* Occupy full width on smaller screens */
+    max-width: none; /* Remove maximum width constraint */
+  }
+}
+
+.dataCard {
+  /*background-color: #efefef;*/
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+}
+
+.select {
+  width: 15%;
+  height: 10%;
+}
+
+.customerCard {
+  width: 40%;
+  height: 40%;
+}
+
+.categoryCard {
+  width: 40%;
+  height: 20rem;
+}
+.select {
+  position: relative;
+}
+.select-year {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.select-year:focus {
+  outline: auto;
+  border-color: #0056b3;
+}
+
+.select-year:hover {
+  border-color: #004085;
+}
+
+.collaboratorbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.collaboratorStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 52%;
+  height: 50%;
+}
+
+.pendingRequestBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.pendingRequestStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 52%;
+  height: 50%;
+}
+
+.totalDaysConsumedBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.totalDaysConsumedStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 52%;
+  height: 50%;
+}
+
+.totalPendingBalanceBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.totalPendingBalanceStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 52%;
+  height: 50%;
+}
+
+#CloseBtn {
+  border: none;
+  background: rgb(49, 116, 173);
+  color: white;
+}

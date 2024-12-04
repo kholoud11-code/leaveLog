@@ -1,0 +1,32 @@
+.header {
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.box_head {
+  height: 80px;
+  background-color: rgb(48, 163, 167);
+  box-shadow: rgba(131, 73, 73, 0.16) 0px 1px 4px;
+}
+.brand_head {
+  padding-left: 0em;
+  color: aqua;
+}
+.center_search {
+  color: wheat;
+  margin-left: 10%;
+  width: 50%;
+}
+.right_side_head {
+  width: 20%;
+  margin-right: 2em;
+}
+.icon {
+  color: darksalmon;
+  font-size: x-large;
+  margin-left: 1em;
+  margin-right: 1em;
+}

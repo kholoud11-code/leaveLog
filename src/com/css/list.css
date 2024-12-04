@@ -1,0 +1,250 @@
+.table > thead > tr > th , td {
+    text-align: center!important;
+}
+.btnholiday{
+    width: 100%;
+}
+.btnholiday button{
+    float: right;
+}
+.table {
+    margin:10px;
+}
+.backdiv{
+    z-index: 2;
+    height: 26%;
+    width: 35%;
+    
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    background-color: #fff;
+}
+.img1{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+.my-DG-header{
+    font-weight: bold;
+}
+/*fetching css*/
+.fetching{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    color: #FFF;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+/*****Custom Btn for Modal Add request*******/
+#mycontainer{
+    width: 100%;
+    height: 150px;
+}
+.btn-1{
+    width: 180px;
+    display: block;
+    border: none;
+    background: #00cc00;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    transition: all 1s;
+    -webkit-box-shadow: 6px -4px 9px -4px #000000; 
+    box-shadow: 6px -4px 9px -4px #000000;
+}
+.btn-2{
+    width: 180px;
+    display: block;
+    border: none;
+    background: #0080B1;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    transition: all 1s;
+    -webkit-box-shadow: 6px -4px 9px -4px #000000; 
+    box-shadow: 6px -4px 9px -4px #000000;
+}
+.btn-3{
+    width: auto;
+    display: block;
+    border: none;
+    background: #BC4328;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    transition: all 1s;
+    -webkit-box-shadow: 6px -4px 9px -4px #000000; 
+    box-shadow: 6px -4px 9px -4px #000000;
+}
+.btn-4{
+    width: 180px;
+    display: block;
+    border: none;
+    background: #E6B600;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    transition: all 1s;
+    -webkit-box-shadow: 6px -4px 9px -4px #000000; 
+    box-shadow: 6px -4px 9px -4px #000000;
+}
+.btn-1:hover,.btn-2:hover,.btn-3:hover,.btn-4:hover{
+    opacity: 0.7;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s ease-out;
+}
+#title{
+    color: #6785C1;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#cancelBtn{
+    border: none;
+    background: red;
+    color: white;
+}
+.showBtn{
+    border: none;
+}
+.showBtn:hover{
+    border: 2px solid #20B2AA;
+}
+.showBtn-delete{
+    margin-left: 10px;
+    border: none;
+}
+.showBtn-delete:hover{
+    /*border: 2px solid red;*/
+    font-size: 25px;
+}
+.showBtn-setting{
+    border: none;
+}
+.showBtn-setting:hover{
+    /*border: 2px solid #1E90FF;*/
+    font-size: 25px;
+}
+.showBtn-role{
+   border: none;
+} 
+.showBtn-role:hover{
+    /*border: 2px solid #1E90FF;*/
+    font-size: 25px;
+}
+#trash-btn{
+    font-size: 25px;
+    color:red;
+}
+/*ajoutation des css page request.jsx*/
+.btnEye{
+    border: none;
+}
+.btnEye:hover{
+    border: 2px solid #20B2AA;
+}
+.btnDelete{
+    margin-left: 10px;
+    border: none;
+}
+.btnDelete:hover{
+    border: 2px solid red;
+}
+
+.btnValid{
+    margin-left: 10px;
+    border: none;
+}
+.btnValid:hover{
+    border: 2px solid rgb(44, 161, 44);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.box1{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.box2{
+    margin-left: 20px;
+}
+
+.boxview1{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.boxview2{
+    margin-left: 30px;
+}
+
+#showBtn-delete1{
+    border: none;
+}
+#showBtn-delete1:hover{
+    font-size: 18px;
+}
+#showBtn-setting1{
+    border: none;
+}
+#showBtn-setting1:hover{
+    font-size: 18px;
+}
+#validBtn{
+    border: none;
+    background: green;
+    color: white;
+}
+.btnWarning{
+    margin-left: 10px;
+    border: none;
+}
+
+.btnWarning:hover{
+    border: 2px solid red;
+}

@@ -1,0 +1,28 @@
+.balance {
+    color:#0c497a;
+}
+label {
+    margin-top: 14px;
+}
+#saveReqBTN{
+    background:#32CD32;
+    color:#fff;
+    border: none;
+}
+#deleteReqBTN{
+    background:#ff0000;
+    color:#fff;
+    border: none;
+}
+#cancelReqBTN{
+    background:#A9A9A9;
+    color:#fff;
+    border: none;
+}
+#InputJustis::placeholder {
+    color: #a9a9a9;
+}
+#addBTN{
+    color:#32CD32;
+    border: 2.5px solid #32CD32;
+}
